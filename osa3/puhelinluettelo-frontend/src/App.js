@@ -65,6 +65,12 @@ const App = () => {
 
             setNewNumber('')
             setNewName('')
+  
+            personService
+              .getAll()
+              .then(notes => {
+                setPersons(notes)
+              })
           })
           .catch(error => {
             setStatusMessage(
@@ -93,6 +99,14 @@ const App = () => {
 
           setNewNumber('')
           setNewName('')
+        }).catch(error => {
+          setStatusMessage(
+            {error: true, content: error.response.data.error}
+          )
+          setPersons(persons.filter(obj => obj.id !== noteObject.id))
+          setTimeout(() => {
+            setStatusMessage({error: true, content: null})
+          }, 5000)
         })
     }
   }

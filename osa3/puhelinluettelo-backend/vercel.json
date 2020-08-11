@@ -15,8 +15,7 @@
     },
     "src": "/api/(.*)",
     "dest": "/index.js"
-  },
-  { "src": "/(.*)", "dest": "/build/$1" },
-  {"src": "/", "dest": "/build/index.html"}
+  }, {"src": "/info", "dest": "/index.js"},
+  { "src": "/(.*)", "dest": "/build/$1" }
   ]
 }
