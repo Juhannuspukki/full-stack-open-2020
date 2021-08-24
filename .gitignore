@@ -1,0 +1,10 @@
+.DS_Store
+.idea/
+osa0/.DS_Store
+osa1/.DS_Store
+osa2/.DS_Store
+osa3/.DS_Store
+osa3/puhelinluettelo-backend/build/
+osa3/puhelinluettelo-backend/node_modules/
+osa4/.env
+osa4/node_modules/
