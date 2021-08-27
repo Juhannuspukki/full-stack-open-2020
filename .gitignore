@@ -8,4 +8,8 @@ osa3/puhelinluettelo-backend/build/
 osa3/puhelinluettelo-backend/node_modules/
 osa4/.env
 osa4/node_modules/
-osa5/node_modules/
+osa5/bloglist-backend/node_modules/
+osa5/bloglist-frontend/node_modules/
+osa5/bloglist-frontend/.eslintcache
+osa6/unicafe-redux/node_modules/
+osa6/redux-anecdotes/node_modules/
